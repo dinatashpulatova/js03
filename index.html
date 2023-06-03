@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer> </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Задача про студентов</h2>
+    <p>Студенты - оценки</p>
+    <p id="out1"></p>
+    <h2>Двоечники</h2>
+    <p id="out2"></p>
+
+    <div class="slider">
+        <div class="item">
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <div class="item_col">
+                <h2>Audi Q8</h2>
+                <h3>Цена: 6 520 000 </h3>
+                <button class="btn">Узнать больше</button>
+            </div>
+            <img src="audiq5.jpg" alt="car">
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="item">
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <div class="item_col">
+                <h2>Kia Sportage</h2>
+                <h3>Цена: 2 300 000</h3>
+                <button class="btn">Узнать больше</button>
+            </div>
+            <img src="kia.jpg" alt="">
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="item">
+            <a class="previous" onclick="previousSlide()">&#10094;</a>
+            <div class="item_col">
+                <h2>Hyundai Tucson</h2>
+                <h3>Цена: 2 700 000</h3>
+                <button class="btn">Узнать больше</button>
+            </div>
+            <img src="tuscon.jpg" alt="">
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+
+        <div class="arrow_mobile">
+            <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+            <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+        </div>
+    </div>
+</body>
+
+</html>
